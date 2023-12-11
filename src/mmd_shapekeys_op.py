@@ -18,23 +18,30 @@ VISEMES = {
 }
 
 MMD_SHAPEKEYS = {
-    "blink happy": "笑い",
     "blink": "まばたき",
-    "close><": "はぅ",
-    "calm": "なごみ",
-    "stare": "じと目",
+    "blink 2": "笑い",
     "wink": "ウィンク",
-    "wink right": "ウインク右",
-    "wink 2": "ウインク２",
-    "wink 2 right": "ウインク２右",
-    "cheerful": "にこり",
-    "serious": "真面目",
-    "upper": "上",
-    "lower": "下",
-    "anger": "怒り",
-    "angry": "怒り",  # = anger
-    "sadness": "困る",
-    "sad": "困る",  # = sadness
+    "wink right": "ウィンク右",
+    "wink 2": "ウィンク２",
+    "wink 2 right": "ｳｨﾝｸ２右",
+    "kiri-eye": "ｷﾘｯ",
+    "> <": "はぅ",
+    "o o":"はちゅ目",
+    "howawa": "なごみ",
+    "ha!!!": "びっくり",
+    "jitoeye": "じと目",
+    "bottomlid up": "下まぶた上げ",
+    "anger eye": "恐ろしい",
+    "eyestar": "星目",
+    "eyestar2": "星目2",
+    "eyeheart": "はぁと",
+    "starlight": "スターライト",
+    "eye small": "瞳小",
+    "eye funky": "恐ろしい子！",
+    "round eye": "丸い目",
+    "eye small h": "瞳縦潰れ",
+    "eye invert": "ｺｯﾁﾐﾝﾅ",
+    "eye hi off"": "ハイライト消",
 }
 
 
