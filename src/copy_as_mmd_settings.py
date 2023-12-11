@@ -34,8 +34,30 @@ SHAPEKEY_LIST = [("blink", None),
                 ("round_eye", None),
                 ("eye_small_h", None),
                 ("eye_invert", None),
-                ("eye_hi_off", None)]
-
+                ("eye_hi_off", None)
+                ("a2", None),
+                ("a3", None),
+                ("o_small", None),
+                ("kiss", None),
+                ("mouse_1", None),
+                ("mouse_2", None),
+                ("anger", None),
+                ("wha", None),
+                ("niyari", None),
+                ("v", None),
+                ("omega", None),
+                ("omega_a", None),
+                ("mouth_down", None),
+                ("mouth_up", None),
+                ("mouth_narrow", None),
+                ("mouth_widen", None),
+                ("get_angry", None),
+                ("serious", None),
+                ("smiley", None),
+                ("trouble", None),
+                ("sadness", None),
+                ("brow_up", None),
+                ("brow_down", None)]
 
 def determine_prefix(shapekeys: List[bpy.types.ShapeKey]) -> str:
     for sk in shapekeys:
@@ -88,6 +110,30 @@ class CopyAsMMDSettings(bpy.types.PropertyGroup):
     eye_small_h:     bpy.props.StringProperty()
     eye_invert:      bpy.props.StringProperty()
     eye_hi_off:      bpy.props.StringProperty()
+    a2:              bpy.props.StringProperty()
+    a3:              bpy.props.StringProperty()
+    o_small:         bpy.props.StringProperty()
+    kiss:            bpy.props.StringProperty()
+    mouse_1:         bpy.props.StringProperty()
+    mouse_2:         bpy.props.StringProperty()
+    anger:           bpy.props.StringProperty()
+    wha:             bpy.props.StringProperty()
+    niyari:          bpy.props.StringProperty()
+    v:               bpy.props.StringProperty()
+    omega:           bpy.props.StringProperty()
+    omega_a:         bpy.props.StringProperty()
+    mouth_down:      bpy.props.StringProperty()
+    mouth_up:        bpy.props.StringProperty()
+    mouth_narrow:    bpy.props.StringProperty()
+    mouth_widen:     bpy.props.StringProperty()
+    get_angry:       bpy.props.StringProperty()
+    serious:         bpy.props.StringProperty()
+    smiley:          bpy.props.StringProperty()
+    trouble:         bpy.props.StringProperty()
+    sadness:         bpy.props.StringProperty()
+    brow_up:         bpy.props.StringProperty()
+    brow_down:       bpy.props.StringProperty()
+    
     # @formatter:on
 
     prefill_existing_JP_shapekeys: bpy.props.BoolProperty(
