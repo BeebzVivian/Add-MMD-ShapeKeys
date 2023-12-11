@@ -11,21 +11,30 @@ VISEMES_LIST = ["ah", "ch", "u", "e", "oh"]
 VISEME_PREFIX_REGEX = re.compile(f"^(.*[._-])?(?:{'|'.join(VISEMES_LIST)})$", re.IGNORECASE)
 
 # (PropertyName , DisplayText)
-SHAPEKEY_LIST = [("blink_happy", "blink happy"),
-                 ("blink", None),
-                 ("close_X", "close><"),
-                 ("calm", None),
-                 ("stare", None),
-                 ("wink", None),
-                 ("wink_right", "wink right"),
-                 ("wink_2", "wink 2"),
-                 ("wink_2_right", "wink 2 right"),
-                 ("cheerful", None),
-                 ("serious", None),
-                 ("upper", None),
-                 ("lower", None),
-                 ("anger", None),
-                 ("sadness", None)]
+SHAPEKEY_LIST = [("blink", None),
+                ("blink_2", "blink 2"),
+                ("wink", None),
+                ("wink_right", None),
+                ("wink_2", None),
+                ("wink_2_right", None),
+                ("kirieye", None),
+                ("close_X", "> <"),
+                ("open_o", None),
+                ("howawa", None),
+                ("ha", None),
+                ("jitoeye", None),
+                ("bottomlid_up", None),
+                ("anger_eye", None),
+                ("eyestar", None),
+                ("eyestar2", None),
+                ("eyeheart", None),
+                ("starlight", None),
+                ("eye_small", None),
+                ("eye_funky", None),
+                ("round_eye", None),
+                ("eye_small_h", None),
+                ("eye_invert", None),
+                ("eye_hi_off", None)]
 
 
 def determine_prefix(shapekeys: List[bpy.types.ShapeKey]) -> str:
@@ -55,21 +64,30 @@ class CopyAsMMDSettings(bpy.types.PropertyGroup):
     oh: bpy.props.StringProperty()
 
     # Shapekeys
-    blink_happy:    bpy.props.StringProperty(description="Close eyes, ^.^ shaped")
-    blink:          bpy.props.StringProperty()
-    close_X:        bpy.props.StringProperty(description="Close Eyes, >.< shaped")
-    calm:           bpy.props.StringProperty()
-    stare:          bpy.props.StringProperty()
-    wink:           bpy.props.StringProperty(description="Wink left eye")
-    wink_right:     bpy.props.StringProperty(description="Wink right eye")
-    wink_2:         bpy.props.StringProperty(description="Happy wink left eye")
-    wink_2_right:   bpy.props.StringProperty(description="Happy wink right eye")
-    cheerful:       bpy.props.StringProperty()
-    serious:        bpy.props.StringProperty()
-    upper:          bpy.props.StringProperty(description="Eyebrows up")
-    lower:          bpy.props.StringProperty(description="Eyebrows lowered")
-    anger:          bpy.props.StringProperty()
-    sadness:        bpy.props.StringProperty()
+    blink:           bpy.props.StringProperty()
+    blink_2:         bpy.props.StringProperty()
+    wink:            bpy.props.StringProperty()
+    wink_right:      bpy.props.StringProperty()
+    wink_2:          bpy.props.StringProperty()
+    wink_2_right:    bpy.props.StringProperty()
+    kirieye:         bpy.props.StringProperty()
+    close_X:         bpy.props.StringProperty(description="Close Eyes, >.< shaped")
+    open_o:          bpy.props.StringProperty()
+    howawa:          bpy.props.StringProperty()
+    ha:              bpy.props.StringProperty()
+    jitoeye:         bpy.props.StringProperty()
+    bottomlid_up:    bpy.props.StringProperty()
+    anger_eye:       bpy.props.StringProperty()
+    eyestar:         bpy.props.StringProperty()
+    eyestar2:        bpy.props.StringProperty()
+    eyeheart:        bpy.props.StringProperty()
+    starlight:       bpy.props.StringProperty()
+    eye_small:       bpy.props.StringProperty()
+    eye_funky:       bpy.props.StringProperty()
+    round_eye:       bpy.props.StringProperty()
+    eye_small_h:     bpy.props.StringProperty()
+    eye_invert:      bpy.props.StringProperty()
+    eye_hi_off:      bpy.props.StringProperty()
     # @formatter:on
 
     prefill_existing_JP_shapekeys: bpy.props.BoolProperty(
