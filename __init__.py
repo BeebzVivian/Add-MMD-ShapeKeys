@@ -23,7 +23,7 @@ bl_info = {
     "category": "Mesh"
 }
 
-from .mmd_shapekeys import (mmd_shapekeys_ui, mmd_shapekeys_op, copy_as_mmd_settings, prefill_op,
+from .src import (mmd_shapekeys_ui, mmd_shapekeys_op, copy_as_mmd_settings, prefill_op,
                             json_export_op, json_import_op)
 
 if "bpy" in locals():
