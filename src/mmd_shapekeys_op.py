@@ -41,7 +41,7 @@ MMD_SHAPEKEYS = {
     "round eye": "丸い目",
     "eye small h": "瞳縦潰れ",
     "eye invert": "ｺｯﾁﾐﾝﾅ",
-    "eye hi off"": "ハイライト消",
+    "eye hi off": "ハイライト消",
 }
 
 
