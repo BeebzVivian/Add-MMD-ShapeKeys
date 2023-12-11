@@ -13,11 +13,11 @@
 
 
 bl_info = {
-    "name": "Copy to MMD Shape Keys",
-    "author": "ShyWolf42",
+    "name": "Add MMD Shapekeys",
+    "author": "BeebzVivian",
     "description": "Copies English shape keys to their Japanese counterparts for MMD animations.",
-    "blender": (3, 0, 0),
-    "version": (1, 1, 0),
+    "blender": (3, 4, 0),
+    "version": (1, 0, 0),
     "location": "",
     "warning": "",
     "category": "Mesh"
