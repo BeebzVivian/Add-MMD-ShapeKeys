@@ -34,7 +34,7 @@ SHAPEKEY_LIST = [("blink", None),
                 ("round_eye", None),
                 ("eye_small_h", None),
                 ("eye_invert", None),
-                ("eye_hi_off", None)
+                ("eye_hi_off", None),
                 ("a2", None),
                 ("a3", None),
                 ("o_small", None),
