@@ -1,3 +1,5 @@
+### latest release not working for blender 4.1, will create a new release soon since upstream may not return. 
+
 # Copy to MMD Visemes
 
 This blender add-on was created to easily create copies of viseme shapekeys with the japanese names that MMD animations
